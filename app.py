@@ -7,6 +7,6 @@ app = Flask(__name__)
 def home():
  return render_template('index.html')
 # Start the web application
-app.run(
- debug=True
-)
+# app.run(
+#  debug=True
+# )
